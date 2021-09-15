@@ -1,0 +1,182 @@
+body {
+	background-color: rgba(33, 31, 32, 1);
+}
+
+.home-intro {
+	color: white;
+	font-family: helvetica;
+	position: absolute;
+	left: 45px;
+	top: 200px;
+	font-size: 30px;
+
+}
+
+.profileimage {
+position: absolute;
+width: 330px;
+height: 330px;
+ 	top: 70%;   
+   	left: 8%;                      
+   	transform: translate(0, -50%);
+}
+
+.profileimagehover {
+	display: none;
+}
+
+.navigation-name {
+	display: none;
+}
+
+.navigation-about {
+position: absolute;
+width: 53px;
+height: 17px;
+left: 60px;
+top: 50px;
+color: white;
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+}
+
+
+.navigation-projects {
+	position: absolute;
+width: 73px;
+height: 17px;
+left: 170px;
+top: 50px;
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+	color: white;
+}
+
+.navigation-contact {
+	position: absolute;
+width: 70px;
+height: 17px;
+left: 290px;
+top: 50px;
+
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+color: #FFFFFF;
+}
+.contact-underline {
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
+@media only screen and (min-width: 800px) {
+
+body {
+	background-color: rgba(33, 31, 32, 1);
+}
+
+.home-intro {
+	color: white;
+	font-size: 45px;
+	font-family: helvetica;
+	position: absolute;               
+   	top: 50%;   
+   	left: 10%;                      
+   	transform: translate(0, -50%);
+}
+
+
+
+.profileimage {
+	position: absolute;
+   	top: 50%;   
+   	left: 65%;                      
+   	transform: translate(0, -50%);
+   	z-index: 2;
+}
+/*.profile-image:hover {
+	cursor: pointer;
+	display: none;
+
+}
+*/
+.profileimagehover {
+	display: none;
+	width: 23%;
+	position: absolute;
+   	top: 50%;   
+   	left: 67%;                      
+   	transform: translate(0, -50%);
+}
+/*.profile-image-hover:hover {
+	display: block;
+	cursor: pointer;
+}*/
+
+/*figure out how to make profile-image disappear and profile-image-hover appear on hover*/
+
+.navigation-name {
+	display: block;
+	color: white;
+	font-family: helvetica;
+	font-size: 18px;
+	position: absolute;
+	top: 5%;
+	left: 10%;
+	font-style: normal;
+font-weight: bold;
+}
+
+.navigation-about {
+	color: white;
+	font-family: helvetica;
+	font-size: 18px;
+	position: absolute;
+	top: 5%;
+	left: 65%;
+}
+.navigation-projects {
+	color: white;
+	font-family: helvetica;
+	font-size: 18px;
+	position: absolute;
+	top: 5%;
+	left: 75%;
+
+}
+
+.header-underline {
+	text-decoration: none;
+	color: white;
+}
+
+.navigation-contact {
+		color: white;
+	font-family: helvetica;
+	font-size: 18px;
+	position: absolute;
+	top: 5%;
+	left: 85%;
+}
+
+.contact-underline {
+	color: white;
+	text-decoration: none;
+}
+
+}
+
+
+
+
+
+
+
